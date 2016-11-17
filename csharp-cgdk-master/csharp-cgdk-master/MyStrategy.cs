@@ -4,7 +4,7 @@ namespace Com.CodeGame.CodeWizards2016.DevKit.CSharpCgdk {
     public sealed class MyStrategy : IStrategy {
         public void Move(Wizard self, World world, Game game, Move move)
         {
-            
+
             //move.Speed = game.WizardForwardSpeed;
             //move.StrafeSpeed = game.WizardStrafeSpeed;
             //move.Turn = game.WizardMaxTurnAngle;
@@ -12,6 +12,8 @@ namespace Com.CodeGame.CodeWizards2016.DevKit.CSharpCgdk {
             move.Action = ActionType.Staff;
             move.Speed = game.WizardForwardSpeed;
             move.StrafeSpeed = game.WizardStrafeSpeed;
+            MyMap map = new MyMap(self, world, game);
+            map.Initialize;
         }
     }
 }
