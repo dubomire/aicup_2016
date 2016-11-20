@@ -4,3 +4,6 @@ E:\Projects\aicup\csharp-cgdk-master\csharp-cgdk-master\bin\Debug\csharp-cgdk.pd
 E:\Projects\aicup\csharp-cgdk-master\csharp-cgdk-master\obj\Debug\csharp-cgdk.csprojResolveAssemblyReference.cache
 E:\Projects\aicup\csharp-cgdk-master\csharp-cgdk-master\obj\Debug\csharp-cgdk.exe
 E:\Projects\aicup\csharp-cgdk-master\csharp-cgdk-master\obj\Debug\csharp-cgdk.pdb
+G:\Projects\aicup_2016\csharp-cgdk-master\csharp-cgdk-master\bin\Debug\csharp-cgdk.exe.config
+G:\Projects\aicup_2016\csharp-cgdk-master\csharp-cgdk-master\obj\Debug\csharp-cgdk.exe
+G:\Projects\aicup_2016\csharp-cgdk-master\csharp-cgdk-master\obj\Debug\csharp-cgdk.pdb
