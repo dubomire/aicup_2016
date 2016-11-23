@@ -5,8 +5,30 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Com.CodeGame.CodeWizards2016.DevKit.CSharpCgdk
 {
+
+       
+
+    static class GeoUtils
+    {
+
+
+        public static double Hypot(double a, double b)
+        {
+            return Math.Sqrt(Math.Pow(a,2) + Math.Pow(b,2));
+        }
+
+        public static MapPoint HalfLine(MapPoint a, MapPoint b)
+        {
+
+            return new MapPoint(0, 0, MyMap.PointType.Waypoint);
+        }
+
+    }
+
+
     class UtilsClass
     {
         public UtilsClass()

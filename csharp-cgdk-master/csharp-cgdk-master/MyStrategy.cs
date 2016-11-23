@@ -13,7 +13,7 @@ namespace Com.CodeGame.CodeWizards2016.DevKit.CSharpCgdk {
             move.Speed = game.WizardForwardSpeed;
             move.StrafeSpeed = game.WizardStrafeSpeed;
             MyMap map = new MyMap(self, world, game);
-            map.Initialize;
+            map.Initialize();
         }
     }
 }
